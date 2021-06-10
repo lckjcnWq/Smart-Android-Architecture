@@ -1,0 +1,4 @@
+include ':basic_net'
+include ':basic_common'
+include ':app'
+rootProject.name = "Smart_Library"

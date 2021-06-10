@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="RoundedImageView">
+    <attr name="riv_corner_radius" format="dimension" />
+    <attr name="riv_corner_radius_top_left" format="dimension" />
+    <attr name="riv_corner_radius_top_right" format="dimension" />
+    <attr name="riv_corner_radius_bottom_left" format="dimension" />
+    <attr name="riv_corner_radius_bottom_right" format="dimension" />
+    <attr name="riv_border_width" format="dimension" />
+    <attr name="riv_border_color" format="color" />
+    <attr name="riv_mutate_background" format="boolean" />
+    <attr name="riv_oval" format="boolean" />
+    <attr name="android:scaleType" />
+    <attr name="riv_tile_mode">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_x">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_y">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+  </declare-styleable>
+
+  <declare-styleable name="StateButton">
+
+    <!--text color-->
+    <attr name="normalTextColor" format="color|reference"/>
+    <attr name="pressedTextColor" format="color|reference"/>
+    <attr name="unableTextColor" format="color|reference"/>
+
+    <!--stroke width and color, dash width, dash gap-->
+    <attr name="strokeDashWidth" format="dimension|reference"/>
+    <attr name="strokeDashGap" format="dimension|reference"/>
+    <attr name="normalStrokeWidth" format="dimension|reference"/>
+    <attr name="pressedStrokeWidth" format="dimension|reference"/>
+    <attr name="unableStrokeWidth" format="dimension|reference"/>
+    <attr name="normalStrokeColor" format="color|reference"/>
+    <attr name="pressedStrokeColor" format="color|reference"/>
+    <attr name="unableStrokeColor" format="color|reference"/>
+
+    <!--background color-->
+    <attr name="normalBackgroundColor" format="color|reference"/>
+    <attr name="pressedBackgroundColor" format="color|reference"/>
+    <attr name="unableBackgroundColor" format="color|reference"/>
+
+    <!--background radius-->
+    <attr name="radius" format="dimension|reference"/>
+    <attr name="state_round" format="boolean|reference"/>
+
+    <!--animation duration-->
+    <attr name="animationDuration" format="integer|reference"/>
+
+  </declare-styleable>
+
+  <declare-styleable name="StateImageView">
+    <attr name="normalBackground" format="color|reference"/>
+    <attr name="pressedBackground" format="color|reference"/>
+    <attr name="unableBackground" format="color|reference"/>
+
+    <!--animation duration-->
+    <attr name="AnimationDuration" format="integer|reference"/>
+  </declare-styleable>
+</resources>
